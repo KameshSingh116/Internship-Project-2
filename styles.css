@@ -1,4 +1,4 @@
-/* General Reset for Body */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #ff9a9e, #fad0c4);
@@ -10,7 +10,7 @@ body {
     color: #333;
 }
 
-/* Main Stopwatch Container */
+
 .stopwatch {
     background: linear-gradient(135deg, #fbc2eb, #a18cd1);
     padding: 30px;
@@ -21,12 +21,12 @@ body {
     transition: transform 0.2s ease-in-out;
 }
 
-/* Hover Effect for Stopwatch */
+
 .stopwatch:hover {
     transform: scale(1.05);
 }
 
-/* Display Styling for Time */
+
 #display {
     font-size: 52px;
     margin: 20px 0;
@@ -50,24 +50,24 @@ body {
     transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
-/* Individual Button Colors */
+
 #start {
-    background-color: #28a745; /* Green for Start */
+    background-color: #28a745; 
 }
 
 #pause {
-    background-color: #ffc107; /* Amber for Pause */
+    background-color: #ffc107; 
 }
 
 #reset {
-    background-color: #dc3545; /* Red for Reset */
+    background-color: #dc3545; 
 }
 
 #lap {
-    background-color: #007bff; /* Blue for Lap */
+    background-color: #007bff; 
 }
 
-/* Button Hover and Active Effects */
+
 .controls button:hover {
     background-color: #333;
     color: #fff;
@@ -78,7 +78,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Lap List Container */
+
 .laps {
     margin-top: 25px;
     text-align: left;
@@ -86,7 +86,7 @@ body {
     padding-top: 10px;
 }
 
-/* Lap List Items */
+
 #lap-list {
     list-style: none;
     padding: 0;
