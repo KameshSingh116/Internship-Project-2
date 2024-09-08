@@ -1,10 +1,10 @@
-// Part 1: Initialize Variables
+
 let startTime;
 let elapsedTime = 0;
 let timerInterval;
 let isRunning = false;
 
-// Part 2: Update Time Display
+
 function updateTime() {
     const currentTime = Date.now();
     const difference = currentTime - startTime + elapsedTime;
@@ -15,7 +15,7 @@ function updateTime() {
     document.getElementById('display').textContent = `${hours}:${minutes}:${seconds}`;
 }
 
-// Part 3: Start Stopwatch
+
 document.getElementById('start').addEventListener('click', function () {
     if (!isRunning) {
         isRunning = true;
@@ -24,7 +24,7 @@ document.getElementById('start').addEventListener('click', function () {
     }
 });
 
-// Part 4: Pause Stopwatch
+
 document.getElementById('pause').addEventListener('click', function () {
     if (isRunning) {
         isRunning = false;
@@ -33,7 +33,7 @@ document.getElementById('pause').addEventListener('click', function () {
     }
 });
 
-// Part 5: Reset Stopwatch
+
 document.getElementById('reset').addEventListener('click', function () {
     isRunning = false;
     elapsedTime = 0;
@@ -42,7 +42,7 @@ document.getElementById('reset').addEventListener('click', function () {
     document.getElementById('lap-list').innerHTML = "";
 });
 
-// Part 6: Record Lap Time
+
 document.getElementById('lap').addEventListener('click', function () {
     if (isRunning) {
         const lapTime = document.createElement('li');
